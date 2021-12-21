@@ -1,0 +1,41 @@
+h1 {
+	color: gold;
+	font-family: "Brush Script MT", cursive;
+	font-size: 60px;
+	text-align: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+	background-color: black;
+	padding: 10px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+body {
+	background-color: white;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.solid {
+	border-style: solid;
+	border-color: yellow;
+}
+
+div {
+	border-style: solid;
+	border-color: black;
+	background-color: darkgreen;
+	padding: 100px 50px;
+	width: 30%;
+	margin: auto;
+	margin-top: 4%;
+}
