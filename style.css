@@ -1,7 +1,12 @@
 h1 {
-	color: red;
+	color: gold;
 	font-family: "Brush Script MT", cursive;
 	font-size: 60px;
+	text-align: center;
+}
+
+form {
+	color: white;
 	text-align: center;
 }
 

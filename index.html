@@ -2,13 +2,20 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
 	<title>Holiday Card</title>
 </head>
 <body>
 
 <div>
 
-<h1>Merry Christmas!</h1>
+<h1 id="merrychristmas">Merry Christmas!</h1>
+
+<form id="form" onsubmit="myName();myForm();return false;">
+<label for= "fname"> Enter Name: </label>
+<input type="text" id="name" name="fname">
+<input type="submit" value-"Submit"=><br><br><br>
+</form>
 
 <img src="https://ak.imgag.com/product/siteassets/general/3519250/image.png" class="center">
 
